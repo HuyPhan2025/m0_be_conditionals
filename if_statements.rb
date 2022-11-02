@@ -24,6 +24,22 @@ else
   p "good to go!"
 end
 
+weather = "hot"
+if weather == "sunny"
+  puts "bring sunscreen"
+elsif weather == "rainy"
+  puts "bring an umbrella"
+elsif weather == "snowy"
+  puts "bring a coat"
+elsif weather == "icy"
+  puts "bring yak traks"
+else 
+  puts "good to go"
+end
+
+
+ 
+
 # Experiment with manipulating the value held in variable 'weather'
 # to print something other than 'coat'
 
@@ -39,12 +55,19 @@ end
 # conditional statement that prints only one or the other.
 
 # Experiment with manipulating the value held within num_quarters
-# to make sure both conditions can be achieved.
+to make sure both conditions can be achieved.
 
 num_quarters = 0
 
 puts "I have enough money for a gumball"
 puts "I don't have enough money for a gumball"
+
+num_quarters = 5
+if num_quarters >= 2
+  puts "I have enough money for a gumball"
+else 
+  puts "i don't have enough money for a gumball"
+end
 
 
 #####################
