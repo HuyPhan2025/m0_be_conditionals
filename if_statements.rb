@@ -84,5 +84,13 @@ end
 # Experiment with manipulating the value held within both variables
 # to make sure all above conditions output what you expect.
 
+cups_of_flower = 2
+sauce = "true"
+if cups_of_flower >= 2 && sauce == "true"
+  puts "I can make pizza"
+else 
+  puts "I cannot make pizza"
+end
+
 cups_of_flour = 1
 has_sauce = true
