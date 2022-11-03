@@ -55,12 +55,7 @@ end
 # conditional statement that prints only one or the other.
 
 # Experiment with manipulating the value held within num_quarters
-to make sure both conditions can be achieved.
-
-num_quarters = 0
-
-puts "I have enough money for a gumball"
-puts "I don't have enough money for a gumball"
+# to make sure both conditions can be achieved.
 
 num_quarters = 5
 if num_quarters >= 2
@@ -68,6 +63,11 @@ if num_quarters >= 2
 else 
   puts "i don't have enough money for a gumball"
 end
+
+num_quarters = 0
+
+puts "I have enough money for a gumball"
+puts "I don't have enough money for a gumball"
 
 
 #####################
